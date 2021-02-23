@@ -52,14 +52,37 @@ export default class HeroCarousel extends Component {
         <div>
           <SlideImage>
             <HeroText>
-              <p>asdfasdf</p>
+              <Para>
+                Our cross-functional project teams are best in the business.
+              </Para>
+              <H1>
+                ACROSS ALL MAJOR INDUSTRIES
+              </H1>
             </HeroText>
           </SlideImage>
         </div>
         <div>
           <SlideImage>
             <HeroText>
-              <p>asdfasdf</p>
+              <Para>
+                Whether your company is defending a first-to-market position
+                or seeking to increase market share,
+              </Para>
+              <H1>
+                UNDERSTANDING THE COMPETITIVE LANDSCAPE IS CRUCIAL.
+              </H1>
+            </HeroText>
+          </SlideImage>
+        </div>
+        <div>
+          <SlideImage>
+            <HeroText>
+              <Para>
+                We leverage best-in-class research because
+              </Para>
+              <H1>
+                RISK IS AN EVER-CHANGING ISSUE
+              </H1>
             </HeroText>
           </SlideImage>
         </div>
