@@ -1,7 +1,7 @@
 ---
-templateKey: 'product-page'
-path: /products
-title: Our Coffee
+templateKey: 'service-page'
+path: /services
+title: Our Core Services
 image: /img/jumbotron.jpg
 heading: Great coffee with a conscience
 description: >-

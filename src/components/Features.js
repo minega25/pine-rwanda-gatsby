@@ -7,11 +7,13 @@ const FeatureGrid = ({ gridItems }) => (
     {gridItems.map((item) => (
       <div key={item.text} className="column is-6">
         <section className="section">
+          <h1 className="has-text-centered">{item.title}</h1>
           <div className="has-text-centered">
             <div
               style={{
                 width: '240px',
-                display: 'inline-block',
+                height: '150px',
+                display: 'inline-grid',
               }}
             >
               <PreviewCompatibleImage imageInfo={item} />

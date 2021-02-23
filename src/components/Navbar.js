@@ -3,6 +3,16 @@ import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'
 
+import styled from 'styled-components';
+
+const Logo = styled.div`
+  font-size: 1.5rem;
+  color: #296680;
+  & > span {
+    font-weight: bold;
+  }
+`
+
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props)
@@ -42,7 +52,7 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+              <Logo>Pine<span>Rwanda</span></Logo>
             </Link>
             {/* Hamburger menu */}
             <div
